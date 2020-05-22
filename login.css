@@ -1,107 +1,104 @@
-        *all{
+*all{
 
-            margin: 0;
+    margin: 0;
 
-            padding: 0;
+    padding: 0;
 
-        }
+}
 
-        div.inner,table{
+div.inner,table{
 
-            position:absolute;
+    position:absolute;
 
-        }
+}
 
-		body{
+body{
 
-			background-color: #608161;
+	background-color: #608161;
 
-			background-size:105%;
+	background-size:105%;
 
-            		background-repeat:no-repeat;
-          
-            
+	background-repeat:no-repeat;
+}
 
-		}
+.outer{
 
-        .outer{
+    height: 100%;    
 
-            height: 100%;    
+}
 
-        }
+.inner{
 
-        .inner{
+	border: 5px solid rgba(255,255,255,1);
 
-			border: 5px solid rgba(255,255,255,1);
+    border-radius: 20px;
 
-		    border-radius: 20px;
+    width: 370px;
 
-		    width: 370px;
+    height: 340px;
 
-		    height: 340px;
+    top: 50%;
 
-		    top: 50%;
+    left: 76%;
 
-		    left: 76%;
+    transform: translate(-50%,-50%);
 
-		    transform: translate(-50%,-50%);
+	box-shadow:11px 11px 11px rgba(50,50,50,1);	
 
-			box-shadow:11px 11px 11px rgba(50,50,50,1);	
+}
 
-        }
+.table{
 
-        .table{
+    top: 7%;
 
-            top: 7%;
+    left: 12%;
 
-		    left: 12%;
+	border: solid;
 
-			border: solid;
+	width: 260px;
 
-			width: 260px;
+	height: 190px;
 
-			height: 190px;
+	border-spacing:7px;
 
-			border-spacing:7px;
+}
 
-		}
+.under{
 
-        .under{
+    position: fixed; 
 
-            position: fixed; 
+    left: 0px; 
 
-            left: 0px; 
+    bottom: 30px; 
 
-            bottom: 30px; 
+    width: 100%; 
 
-            width: 100%; 
+    text-align:center;
 
-            text-align:center;
+    font-size: 15px;
 
-            font-size: 15px;
+}
 
-        }
+.Time{
 
-		.Time{
+	top: 65%;
 
-			top: 65%;
+	left: 62%;
 
-			left: 62%;
+position: fixed; 
 
-            position: fixed; 
+	width: 400px;
 
-			width: 400px;
+	text-align:right;
 
-			text-align:right;
+}
 
-		}
+.TEXT{
 
-		.TEXT{
+	height:72%;
 
-			height:72%;
+	width: 200px;
 
-			width: 200px;
+}
 
-		}
-
-		a {text-decoration: none}	
+a {text-decoration: none}	
